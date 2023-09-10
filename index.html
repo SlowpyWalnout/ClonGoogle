@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shotcut icon" href="images/2000px-Google_G_Logo.svg_.png">
+    <title>Google</title>
+</head>
+<body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <header>
+        <!--Aquí va gmmail, imagenes, icono menú, foto de usuario-->
+        <a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Gmail</a>
+        <a href="https://www.google.com.mx/imghp?hl=es&authuser=0&ogbl">Imágenes</a>
+        <box-icon type='solid' name='grid' size="md" color="#717171" id="grid"></box-icon>
+        <img src="https://avatars.githubusercontent.com/u/76418657?v=4" alt="FotoUsuario" id="UserPic">
+    </header>
+
+    
+    <div class="body">
+        <div class="Logogoogle">
+            <img src="images/googlelogo_color_272x92dp.png" alt="Logo" id="google">
+        </div>
+        <section class="main">
+            <!--logo, barra de búsqueda, buscar con google, voy a tener suerte, ofrecido por google en: español latinoamaerica-->
+            <div class="findbar">
+                <box-icon name='search' color="grey"></box-icon>
+                <textarea  class="texto-busqueda" maxlength="2048" rows="1"></textarea>            
+                <box-icon name='camera' color="grey" size="sm" id="camera"></box-icon>        
+            </div>
+            <div class="botones">
+                <button id="button-left">Buscar con google</button>
+                <button id="button-right">Voy a tener suerte</button>
+            </div>
+        </section>    
+    </div>
+    
+    <footer>
+        <div class="mexico">
+            <!--mexic-->
+            <p>México</p>
+        </div>
+        <div class="about">
+            <!--Sobre google, Publicidad, Negocios,cómo funciona la búsqueda-->
+            <div class="about-left">
+                <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre google</a>
+                <a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la búsqueda</a>
+            </div>
+            <!--Privacidad, condiciones, preferencias-->
+            <div class="about-right">
+                <a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                <a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                <a href="">Preferencias</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
